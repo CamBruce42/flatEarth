@@ -1,0 +1,74 @@
+html{
+	background-image: url("media/backgroundImage.jpg");
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1% 1%;
+    transition: 0.3s;
+	width: 20%;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+footer{
+	padding-top: 5%;
+}
+header{
+	overflow:hidden;
+	max-height: 300px;
+	}
+section{
+	background-color: white !important
+}
+.headerImg{
+	width:100%;
+}
+.tablinks{
+	font-size: 2em;
+	font-weight: bold;
+	font-family: impact;
+}
+h1{
+	
+	font-size: 2.5em;
+	font-family: impact;
+}
+p{
+	font-size: 1.8em;
+	max-width: 50%;
+	float: left;
+	font-family: comic sans;
+}
+.contentImages{
+	float:left;
+	max-width: 100%;
+	//padding: 1%;
+	margin: 1%;
+	border: black solid 1px;
+}
